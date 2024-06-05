@@ -1,0 +1,49 @@
+.navbar-nav{
+    /* border:10px solid red; */
+    margin-left:50px;
+    gap:80px;
+
+    
+}
+.but{
+    /* border:10px solid black; */
+    margin-left:200px;
+    display:flex;
+    justify-content:space-between;
+}
+.cart-icon {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s; /* Add transitions for smooth effect */
+  }
+  
+  .cart-icon:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+    color: blue; /* Change the color of the icon on hover */
+  }
+  .a{
+    /* border:2px solid black; */
+    /* margin-left:200px; */
+    padding-top:10px;
+    font-size:large;
+    color:white;
+  }
+  .search{
+height:50px;
+width:400px;
+border-radius:10px;
+margin-top:30px
+
+  }
+  .sicon{
+    margin-top:10px;
+    margin-left:10px;
+  }
+  .flip-image {
+    transition: transform 0.5s ease; /* Add transition for smooth effect */
+  }
+  
+  .flip-image:hover {
+    transform: scaleX(-1); /* Flip the image horizontally on hover */
+  }
+  

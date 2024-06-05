@@ -1,0 +1,30 @@
+.container{
+    /* border:2px solid red; */
+}
+.card{
+    /* border:2px solid red; */
+}
+.home-link {
+    background-color: black;
+    color: white;
+    width: 100px; /* Increase width and height for a larger icon */
+    height: 100px;
+    border-radius: 50%;
+    display: flex; /* Align icon vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove default underline for links */
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* Optional: Add hover effect */
+.home-link:hover {
+    opacity: 0.8; /* Example: Reduce opacity on hover */
+}
+
+.home-link svg {
+    width: 60%; /* Adjust the size of the icon */
+    height: auto;
+}

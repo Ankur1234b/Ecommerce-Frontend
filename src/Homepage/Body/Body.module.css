@@ -1,0 +1,151 @@
+.card{
+    /* border:2px solid red; */
+    width:350px;
+    height:450px;
+    margin-top:50px;
+    margin-left:50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* overflow:hidden; */
+    border-radius:10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.card:hover{
+     /* Scale up the card slightly on hover */
+     transform: scale(1.05);
+     /* Change background color to blue */
+     background-color: #007bff;
+     /* Change text color to white */
+     color: #fff;
+     .card_text {
+        color: #fff;
+    }
+     /* Add box shadow for depth effect */
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card1{
+    /* border:2px solid red; */
+    width:370px;
+    height:450px;
+    margin-top:50px;
+    margin-left:50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* overflow:hidden; */
+    border-radius:10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.card1:hover{
+     /* Scale up the card slightly on hover */
+     transform: scale(1.05);
+     /* Change background color to blue */
+     background-color: #007bff;
+     /* Change text color to white */
+     color: #fff;
+     .card_text {
+        color: #fff;
+    }
+     /* Add box shadow for depth effect */
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card_img_top{
+    width:350px;
+    height:300px;
+    border-radius:10px;
+}
+
+.card_img_top1{
+    width:370px;
+    height:300px;
+    border-radius:10px;
+}
+.card_main{
+    /* border:2px solid red; */
+    display:flex;
+    margin-left:150px;
+    margin-top:40px;
+}
+.k1{
+    /* border:10px solid red; */
+    /* margin-top:60px; */
+    
+}
+.k2{
+    /* border:10px solid blue;  */
+    /* display:flex;
+    justify-content:space-evenly; */
+    margin-top:120px;
+    
+}
+.k3,.k4{
+    /* border:10px solid blue; */
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:100px;
+}
+.k8{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+}
+.k11{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    /* border:10px solid black; */
+    gap:20px;
+}
+.k12{
+    margin-left:680px;
+}
+.card_img_top5{
+    width:20 0px;
+    height:350px;
+    border-radius:10px;
+}
+.card8{
+    /* border:2px solid red; */
+    width:350px;
+    height:520px;
+    margin-top:50px;
+    margin-left:50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* overflow:hidden; */
+    border-radius:10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.card:hover8{
+     /* Scale up the card slightly on hover */
+     transform: scale(1.05);
+     /* Change background color to blue */
+     background-color: #007bff;
+     /* Change text color to white */
+     color: #fff;
+     .card_text {
+        color: #fff;
+    }
+     /* Add box shadow for depth effect */
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.kk{
+    width:1518px;
+    margin-top:100px;
+}
+.kk1{
+    width:1518px;
+    
+}
+/* Add this to your Body.module.css file */
+.lineAboveImg {
+    position: relative;
+  }
+  
+  .lineAboveImg::before {
+    content: "";
+    position: absolute;
+    top: -1px; /* Adjust as needed to position the line */
+    left: 0;
+    width: 80%;
+    margin-left:160px;
+    height: 1px; /* Adjust height as needed */
+    background-color: white; /* Change color as needed */
+  }
+ 

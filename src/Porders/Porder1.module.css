@@ -1,0 +1,59 @@
+.card_img_top5 {
+    width: 350px; /* Adjust this value as needed */
+    height: 500px; /* Maintain aspect ratio */
+    border: 2px solid grey;
+    margin-left:100px;
+    margin-top:100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card8{
+    /* border: 10px solid blue;  */
+    display:flex;
+    height:800px;
+    gap:80px;
+}
+.card9{
+    margin-top:40px;
+    
+    margin-right:240px;
+    /* border:10px solid green; */
+}
+.line{
+    /* width: 80%; */
+    height: 1px; /* Adjust height as needed */
+    background-color: blue; 
+}
+.line1{
+    display:flex;
+    gap:20px;
+}
+.card_img_top6{
+    position:relative;
+    right:50px;
+    /* border:2px solid red; */
+    
+}
+.kk{
+    width:1518px;
+    margin-top:100px;
+}
+.kk1{
+    width:1518px;
+    
+}
+/* Add this to your Body.module.css file */
+.lineAboveImg {
+    position: relative;
+  }
+  
+  .lineAboveImg::before {
+    content: "";
+    position: absolute;
+    top: -1px; /* Adjust as needed to position the line */
+    left: 0;
+    width: 80%;
+    margin-left:160px;
+    height: 1px; /* Adjust height as needed */
+    background-color: white; /* Change color as needed */
+  }
+ 
